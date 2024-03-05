@@ -1,9 +1,11 @@
-
+/* @font-face {
+    font-family: 'Poppins';
+    src: url(ImgPort/Poppins-Regular.ttf);
+} */
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -13,11 +15,12 @@ body{
     background: black;
     color: white;
     
+    
 
 }
 .multiText{
     
-    color: #00a2ed;
+    color: #22a2dd;
     
 }
 
@@ -41,7 +44,7 @@ nav{
 }
 .logo{
     width: 140px;
-    font-family: "Raleway";
+    font-family: "Poppins";
     font-size: 70px;
     color: black;
     
@@ -86,13 +89,14 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     /* color: #ffb7c5; */
-    color: #dd78a2;
+    color: #9796d8;
 }
 
 /* -------about----- */
 #about {
     padding: 80px 0;
     color: #ababab;
+    
 }
 .row{
     display: flex;
@@ -166,6 +170,7 @@ nav ul li a:hover::after{
 ------projects------ */
 #projects{
     padding:30px 0;
+    
 
 }
 .projects-list{
@@ -207,7 +212,7 @@ nav ul li a:hover::after{
  */
  #portfolio{
     padding: 50px 0;
-
+    
  }
  .work-list{
     display: grid;

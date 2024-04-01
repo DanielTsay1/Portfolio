@@ -371,30 +371,7 @@ nav .fa-solid{
     #h1c{
         font-size: 30px;
     }
-    /* nav .fa-solid{
-        display: block;
-        font-size: 25px;
-    }
-    nav ul{
-        background: #ffb7c5;
-        position: fixed;
-        top:0;
-        right:-200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
 
-    }
-    nav ul .fa-solid{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    } */
 
 }
 #msg{
@@ -402,3 +379,4 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
+/* ----------dark mode--------- */

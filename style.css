@@ -28,7 +28,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(ImgPort/background.JPG);
+    background-image: url(ImgPort/F3ADE3FE-6263-408B-AAAB-212754A0975A_1_201_a.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -47,7 +47,7 @@ nav{
     width: 140px;
     font-family: "Poppins";
     font-size: 70px;
-    color: black;
+    color: white;
     
 
 } 
@@ -61,7 +61,7 @@ nav ul li{
 
 }
 nav ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 40px;
     position: relative;
@@ -228,8 +228,8 @@ nav ul li a:hover::after{
     overflow: hidden;
  }
  .work img{
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 350px;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;

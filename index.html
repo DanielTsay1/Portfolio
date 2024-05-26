@@ -16,15 +16,16 @@
     <nav>
         <!-- <img src="ImgPort/logo" alt="logo"> -->
         <h3 class="logo"></h3>
-        <ul>
+        <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Achievments</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
             <!-- <i class="fa-solid fa-xmark"></i> -->
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
-        <!-- <i class="fa-solid fa-bars"></i> -->
+        <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
     </nav>
 
     <div class="header-text">
@@ -53,7 +54,7 @@
             </div>
             <div class="about-col-2">
                 <h1 class = "Sub">About me</h1>
-                <p class =" Subb"> I am an eager high school student that is ready for every and any oppurtunity that jumps at him. I love to help the community and get the younger generation involved with STEM.</p>
+                <p class ="Subb"> I am an eager high school student that is ready for every and any oppurtunity that jumps at him. I love to help the community and get the younger generation involved with STEM.</p>
                
                
                 <div class = "tab-titles">
@@ -152,14 +153,14 @@
     <div class="container">
         <h1 class = "Sub">My Work</h1>
         <div class="work-list">
-            <div class="work">
+            <!-- <div class="work">
                 <img src="ImgPort/2023-24 Engineering Portfolio (2) - Copy.png" >
                 <div class="layer"> 
                     <h2>Geared Reaction Robot</h2>
                     <h4>FIRST FTC Robotics team "Geared Reaction" competing, programming and building a robot to go against other advances teams</h4>
                     <a href="https://unionrobotics.org/geared-reaction/"><i class="fa-solid fa-link"></i></a>
                 </div>
-            </div>
+            </div> -->
             <div class="work">
                 <img src="ImgPort/IMG_1710.jpg" >
                 <div class="layer"> 
@@ -257,7 +258,15 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
-  
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200";
+    }
+  </script>
 
 </body>
 </html>

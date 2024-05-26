@@ -374,10 +374,11 @@ nav .fa-solid{
 /* -----css for small screen----- */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(ImgPort/A1D14282-BE73-40F0-9265-34B753CB4050_1_105_c.jpeg);
+        background-image: url(ImgPort/6C56225E-A76A-4500-93EC-423D914A4B61_1_105_c.jpeg);
+        background-attachment: scroll;
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 150%;
         font-size: 16px;
     }
   
@@ -418,6 +419,7 @@ nav .fa-solid{
     }
     .about-col-1{
         margin-bottom: 30px;
+        
     }
     .about-col-2{
         font-size: 14px;
@@ -432,6 +434,7 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+    
    
 }
 
